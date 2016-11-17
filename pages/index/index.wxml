@@ -1,0 +1,31 @@
+<view class="title" bindtap="actionSheetClick">
+    <text class="pull-left">{{"<<"}}</text>
+    {{title}}
+    <text class="pull-right">{{">>"}}</text>
+</view>
+
+<view class="time">
+    <view class="big-circle first"></view>
+    <view animation="{{leftAnimationData}}" class="big-circle right first"></view>
+    <view class="circle first">
+        <view>{{leftTime}}s</view>
+    </view>
+
+    <view class="big-circle second" ></view>
+    <view animation="{{rightAnimationData}}" class="big-circle right second"></view>
+    <view class="circle second">
+        <view>{{rightTime}}s</view>
+    </view>
+</view>
+<view class ="btnGroup">
+    <button class="btn" bindtap="leftStart">正方发言</button>
+    <button class="btn"bindtap="rightStar">反方发言</button>
+</view>
+
+
+<view class="desc">
+    <text >{{desc}}</text>
+</view>
+
+<audio src="{{src}}" id="myAudio"  loop><audio/>
+
