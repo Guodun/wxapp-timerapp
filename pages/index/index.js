@@ -10,7 +10,7 @@ Page({
     rightAnimationData:{},
     leftTime:100,
     rightTime:200,
-    src: "/assets/sound/countdown.mp3"
+    src: "http://dx.sc.chinaz.com/Files/DownLoad/sound1/201401/4031.mp3"
   },
   onLoad:function(options){
     
