@@ -27,5 +27,5 @@
     <text >{{desc}}</text>
 </view>
 
-<audio src="{{src}}" id="myAudio"  loop><audio/>
+<audio src="{{src}}" id="myAudio" ></audio>
 
